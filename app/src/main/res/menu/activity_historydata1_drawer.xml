@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_hspo2"
+            android:icon="@drawable/ic_invert_colors_black_24dp"
+            android:title="SpO2" />
+        <item
+            android:id="@+id/nav_hres"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="Respiratory rate" />
+        <item
+            android:id="@+id/nav_hheart"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Heart rate" />
+        <item
+            android:id="@+id/nav_hbp"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Blood pressure" />
+        <item
+            android:id="@+id/nav_length"
+            android:icon="@drawable/ic_alarm_black_24dp"
+            android:title="Sleep length" />
+        <item
+        android:id="@+id/nav_walk"
+        android:icon="@drawable/ic_directions_run_black_24dp"
+        android:title="Sleep Walking" />
+        <item
+            android:id="@+id/nav_return"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="Return to the home page" />
+
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

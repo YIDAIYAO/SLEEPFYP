@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90sp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:hint="username" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:hint="password"
+            android:password="true" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:text="Login" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relaativelayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10sp">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="300sp"
+            android:layout_height="1sp"
+            android:layout_centerHorizontal="true"
+            android:background="#d7f2f7"
+            tools:background="00" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="1sp"
+            android:layout_height="40sp"
+            android:layout_below="@+id/view1"
+            android:layout_centerInParent="true"
+            android:background="#d7f2f7" />
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_toLeftOf="@+id/view2"
+            android:text="Register"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lookaround"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_toRightOf="@+id/view2"
+            android:text="Open without account"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

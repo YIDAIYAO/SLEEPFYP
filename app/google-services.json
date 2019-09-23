@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "894894093510",
+    "firebase_url": "https://sleep-monitor-d5728.firebaseio.com",
+    "project_id": "sleep-monitor-d5728",
+    "storage_bucket": "sleep-monitor-d5728.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894894093510:android:87c0fc272d0133b9",
+        "android_client_info": {
+          "package_name": "com.example.apple.sleepfyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894894093510-giddvmt5c3v09c2uj06ps92lsjc6vhdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ92A6N1auXS2iYVM9WAxZruvvFGPMoQ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
